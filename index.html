@@ -92,17 +92,15 @@
             background: rgba(255, 167, 38, 0.06);
             border: 1px solid var(--accent-border);
             border-radius: 14px;
-            padding: 14px 16px;
+            padding: 16px;
             margin-bottom: 20px;
             font-size: 13px;
             color: var(--text-secondary);
-            line-height: 1.5;
-            display: flex;
-            gap: 10px;
-            align-items: flex-start;
+            line-height: 1.6;
         }
 
-        .alert-box svg { flex-shrink: 0; margin-top: 2px; stroke: var(--accent-main); }
+        .alert-box p { margin-bottom: 8px; }
+        .alert-box p:last-child { margin-bottom: 0; }
         .alert-box strong { color: var(--text-primary); }
 
         .amount-box {
@@ -281,13 +279,13 @@
         <div class="card-header">
             <div class="badge-status">Pagamento Atrasado · 5 dias</div>
             <h1>Fatura em Atraso</h1>
-            <p>Regularize para evitar acúmulo de encargos</p>
+            <p>Queremos te ajudar a resolver isso com tranquilidade</p>
         </div>
 
         <div class="card-body">
             <div class="alert-box">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
-                <div>Não identificamos o pagamento da sua fatura vencida. Se você já pagou, desconsidere — a confirmação pode levar até 24h.</div>
+                <p>Oi, Antônio! Notamos que sua fatura está em atraso há alguns dias e ainda não identificamos o pagamento.</p>
+                <p>Sabemos que às vezes as coisas apertam — <strong>se você precisar de um prazo diferente pra regularizar e evitar o bloqueio do seu acesso</strong>, é só nos chamar. Queremos que você continue navegando certinho! 😊</p>
             </div>
 
             <div class="amount-box">
@@ -355,10 +353,10 @@
 
             <div class="help-box">
                 <div class="help-text">
-                    <strong>Não consegue pagar o valor integral agora?</strong>
-                    <span>Fale com a gente para negociar prazo ou parcelamento.</span>
+                    <strong>Precisa de mais alguns dias?</strong>
+                    <span>Sem problemas! Fale com a gente e vemos juntos a melhor forma de te ajudar.</span>
                 </div>
-                <a class="btn-action btn-help" href="https://wa.me/5594992361576?text=Ol%C3%A1%2C%20preciso%20regularizar%20minha%20fatura" target="_blank" rel="noopener">
+                <a class="btn-action btn-help" href="https://wa.me/5594992361576?text=Ol%C3%A1%2C%20preciso%20de%20um%20prazo%20para%20regularizar%20minha%20fatura" target="_blank" rel="noopener">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
                     Falar com Atendimento
                 </a>
